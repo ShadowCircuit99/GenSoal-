@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireframe GenSoal — 6 Halaman</title>
+<style>
+  body {
+    margin: 0; padding: 32px; background: #eef0f3;
+    font-family: "Segoe UI", system-ui, sans-serif; color: #2b3442;
+  }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: #66727f; font-size: 14px; margin-bottom: 26px; }
+  .wf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 26px; }
+  .wf { background: #fff; border: 1px solid #d7dce3; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+  .wf-title { padding: 12px 16px; border-bottom: 1px solid #e6eaef; font-weight: 700; font-size: 14px; display: flex; justify-content: space-between; }
+  .wf-title span { color: #8893a0; font-weight: 400; font-size: 12px; }
+  .wf-body { padding: 16px; min-height: 260px; display: flex; flex-direction: column; gap: 10px; }
+  /* wireframe primitives */
+  .wf-bar { background: #dfe4ea; border-radius: 5px; height: 26px; display: flex; align-items: center; padding: 0 10px; font-size: 11px; color: #58626e; justify-content: space-between; }
+  .wf-bar .dots { letter-spacing: 2px; font-size: 15px; }
+  .wf-line { background: #e7ebf0; border-radius: 4px; height: 11px; }
+  .wf-line.w40 { width: 40%; } .wf-line.w60 { width: 60%; } .wf-line.w80 { width: 80%; } .wf-line.w100 { width: 100%; }
+  .wf-line.tall { height: 16px; }
+  .wf-box { border: 1.5px dashed #c3cad3; border-radius: 7px; padding: 10px; font-size: 12px; color: #58626e; }
+  .wf-btn { background: #3b6fe0; color: #fff; border-radius: 6px; padding: 8px 14px; font-size: 12px; font-weight: 600; text-align: center; }
+  .wf-btn.ghost { background: #fff; color: #3b6fe0; border: 1px solid #9db5ea; }
+  .wf-btn.gray { background: #dfe4ea; color: #58626e; }
+  .row { display: flex; gap: 10px; }
+  .row > * { flex: 1; }
+  .wf-card { background: #f7f9fc; border: 1px solid #e2e7ee; border-radius: 8px; padding: 12px; flex: 1; }
+  .wf-card .num { font-size: 20px; font-weight: 700; color: #3b6fe0; }
+  .wf-label { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: #8893a0; }
+  .wf-input { background: #fff; border: 1px solid #cdd4dd; border-radius: 6px; height: 30px; padding: 0 10px; font-size: 12px; color: #9aa4b0; display: flex; align-items: center; }
+  .wf-textarea { background: #fff; border: 1px solid #cdd4dd; border-radius: 6px; height: 56px; padding: 8px 10px; font-size: 12px; color: #9aa4b0; }
+  .wf-table { width: 100%; font-size: 11px; border-collapse: collapse; }
+  .wf-table th, .wf-table td { border: 1px solid #e2e7ee; padding: 6px; text-align: left; color: #58626e; }
+  .wf-table th { background: #f2f4f7; color: #8893a0; font-weight: 600; }
+  .wf-item { border: 1px solid #e2e7ee; border-radius: 7px; padding: 10px; font-size: 11.5px; color: #58626e; }
+  .wf-item .q { font-weight: 600; color: #2b3442; margin-bottom: 5px; }
+  .note { margin-top: 10px; padding: 10px 12px; background: #fff7e6; border-left: 3px solid #e0a800; border-radius: 4px; font-size: 12px; color: #6b5718; }
+  .badge { display: inline-block; font-size: 9px; padding: 2px 6px; border-radius: 8px; background: #e8effc; color: #1d55c4; font-weight: 700; }
+</style>
+</head>
+<body>
+<h1>Wireframe GenSoal</h1>
+<div class="sub">Rancangan 6 halaman aplikasi — Fase 5 Rancangan Solusi. Kotak = elemen UI sebenarnya, bukan gambar.</div>
+
+<div class="wf-grid">
+
+  <!-- 1. LOGIN -->
+  <div class="wf">
+    <div class="wf-title">1. Halaman Login <span>F-01</span></div>
+    <div class="wf-body">
+      <div class="wf-bar"><b>GenSoal</b><span class="dots">• • •</span></div>
+      <div style="max-width:260px;margin:20px auto;width:100%;display:flex;flex-direction:column;gap:10px">
+        <div class="wf-line tall w60"></div>
+        <span class="wf-label">Nama Guru</span>
+        <div class="wf-input">Nama guru</div>
+        <span class="wf-label">Asal Sekolah</span>
+        <div class="wf-input">Asal sekolah (opsional)</div>
+        <div class="wf-btn">Masuk</div>
+      </div>
+      <div class="note">Login sederhana tanpa password rumit agar guru 3T mudah memulai.</div>
+    </div>
+  </div>
+
+  <!-- 2. DASHBOARD -->
+  <div class="wf">
+    <div class="wf-title">2. Dashboard <span>Utama</span></div>
+    <div class="wf-body">
+      <div class="wf-bar"><b>GenSoal</b>
+        <span style="display:flex;gap:6px">
+          <span style="background:#e8effc;padding:3px 8px;border-radius:4px">Dashboard</span>
+          <span style="padding:3px 8px">Buat</span><span style="padding:3px 8px">Bank</span>
+        </span></div>
+      <div class="row">
+        <div class="wf-card"><div class="wf-label">Total Soal</div><div class="num">12</div></div>
+        <div class="wf-card"><div class="wf-label">Set</div><div class="num">3</div></div>
+        <div class="wf-card"><div class="wf-label">Mapel</div><div class="num">2</div></div>
+      </div>
+      <div class="wf-btn">+ Buat Soal Baru</div>
+      <div class="wf-box">Tabel ringkas: akar masalah ↔ jawaban GenSoal</div>
+    </div>
+  </div>
+
+  <!-- 3. BUAT SOAL -->
+  <div class="wf">
+    <div class="wf-title">3. Form Buat Soal <span>F-02</span></div>
+    <div class="wf-body">
+      <div class="wf-bar"><b>Buat Soal HOTS</b><span class="dots">• • •</span></div>
+      <div class="row">
+        <div><span class="wf-label">Mata Pelajaran</span><div class="wf-input">Bahasa Indonesia ▾</div></div>
+        <div><span class="wf-label">Kelas</span><div class="wf-input">Kelas XI ▾</div></div>
+      </div>
+      <span class="wf-label">Capaian Pembelajaran / Materi</span>
+      <div class="wf-textarea">Tulis materi pokok…</div>
+      <div class="row">
+        <div><span class="wf-label">Level</span><div class="wf-input">C4 Analisis ▾</div></div>
+        <div><span class="wf-label">Tipe</span><div class="wf-input">Pilihan Ganda ▾</div></div>
+        <div><span class="wf-label">Jumlah</span><div class="wf-input">5</div></div>
+      </div>
+      <div class="wf-btn">Generate Soal</div>
+      <div class="note">Placeholder teks penting: contoh CP agar guru tahu cara mengisi.</div>
+    </div>
+  </div>
+
+  <!-- 4. PRATINJAU -->
+  <div class="wf">
+    <div class="wf-title">4. Pratinjau Soal <span>F-03, F-04, F-05</span></div>
+    <div class="wf-body">
+      <div class="row" style="align-items:center">
+        <div class="wf-line tall w60"></div>
+        <div class="row" style="flex:.7;gap:5px">
+          <div class="wf-btn ghost" style="padding:6px">PDF</div>
+          <div class="wf-btn ghost" style="padding:6px">Word</div>
+          <div class="wf-btn gray" style="padding:6px">Simpan</div>
+        </div>
+      </div>
+      <div class="wf-item">
+        <div class="q">1. <span class="badge">C4 · Analisis</span> Soal pertama…</div>
+        A. Opsi jawaban<br>B. Opsi jawaban<br>C. Opsi jawaban<br>D. Opsi jawaban
+        <div style="margin-top:6px;padding:6px;background:#e6f6ed;border-radius:4px;color:#1f7a44;font-size:11px">Kunci: A · Rubrik: …</div>
+      </div>
+      <div class="wf-item"><div class="q">2. <span class="badge">C4</span> Soal kedua…</div><div class="wf-line w80" style="margin-top:6px"></div><div class="wf-line w60" style="margin-top:5px"></div></div>
+    </div>
+  </div>
+
+  <!-- 5. BANK SOAL -->
+  <div class="wf">
+    <div class="wf-title">5. Bank Soal <span>F-06, F-08</span></div>
+    <div class="wf-body">
+      <div class="row"><div class="wf-input" style="flex:2">Cari mapel / materi…</div><div class="wf-btn ghost">Hapus semua</div></div>
+      <table class="wf-table">
+        <tr><th>Tanggal</th><th>Mapel</th><th>Materi</th><th>Level</th><th>Aksi</th></tr>
+        <tr><td>1/11/2026</td><td>Matematika</td><td>Fungsi kuadrat</td><td><span class="badge">C4</span></td><td>Buka · Hapus</td></tr>
+        <tr><td>1/11/2026</td><td>B. Indo</td><td>Analisis teks</td><td><span class="badge">C5</span></td><td>Buka · Hapus</td></tr>
+        <tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>
+      </table>
+      <div class="note">Bila kosong: tampilkan pesan "Belum ada soal tersimpan".</div>
+    </div>
+  </div>
+
+  <!-- 6. PROFIL -->
+  <div class="wf">
+    <div class="wf-title">6. Profil <span>F-01</span></div>
+    <div class="wf-body">
+      <div class="wf-bar"><b>Profil</b><span class="dots">• • •</span></div>
+      <span class="wf-label">Nama</span>
+      <div class="wf-input">Nama guru</div>
+      <span class="wf-label">Sekolah</span>
+      <div class="wf-input">Asal sekolah</div>
+      <div class="wf-btn">Simpan Profil</div>
+      <div class="wf-btn ghost">Keluar</div>
+      <div class="note">Data tersimpan lokal di browser; tanpa server.</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

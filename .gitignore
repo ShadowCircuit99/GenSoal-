@@ -1,0 +1,71 @@
+# ============================================================
+# .gitignore — GenSoal
+# Hanya file yang diperlukan aplikasi yang ikut ter-commit.
+# File sementara, cache, dan artefak editor diabaikan.
+# ============================================================
+
+# ---------- Sistem Operasi ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Editor / IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# ---------- Python (untuk server lokal / skrip) ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- Node / npm (jika suatu saat dipakai) ----------
+node_modules/
+package-lock.json
+yarn.lock
+.pnp/
+
+# ---------- Cache & file sementara ----------
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+*.tmp
+*.temp
+*.bak
+*.old
+
+# ---------- Build / hasil output ----------
+dist/
+build/
+out/
+
+# ---------- File konfigurasi lokal ----------
+.env
+.env.local
+.env.*.local
+*.local
+
+# ---------- Artefak yang tidak perlu di-upload ----------
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ---------- Panduan dan catatan pribadi (bukan bagian aplikasi) ----------
+CARA_PUSH_GITHUB.txt
+CATATAN*.txt
+catatan*.txt
+TODO*.txt
+todo*.txt
+*draft*
+draft/*
+draft*

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GenSoal - Generator Soal HOTS Kurikulum Merdeka</title>
+<meta name="description" content="Alat bantu guru SMA/SMK daerah 3T menyusun soal HOTS dari capaian pembelajaran Kurikulum Merdeka.">
+<meta name="theme-color" content="#2f6fed">
+<link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./assets/logo.svg">
+<meta property="og:title" content="GenSoal - Generator Soal HOTS Kurikulum Merdeka">
+<meta property="og:description" content="Susun soal HOTS siap cetak dari capaian pembelajaran, tanpa internet sekalipun.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="appbar no-print">
+  <a class="brand" href="#" onclick="appShowView('dashboard');return false;">
+    <span class="logo" aria-hidden="true">GS</span>
+    <span>GenSoal<small>Generator Soal HOTS · Kurikulum Merdeka</small></span>
+  </a>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Navigasi utama"></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ubah tema terang atau gelap">🌙</button>
+</header>
+
+<div class="app">
+<main>
+
+  <!-- ===== LOGIN ===== -->
+  <section class="view active" id="view-login" aria-label="Masuk">
+    <div class="login-wrap">
+      <div class="card">
+        <h1>Masuk ke GenSoal</h1>
+        <p class="hint" style="margin-bottom:18px">Untuk guru SMA/SMK daerah 3T. Cukup isi nama untuk mencoba.</p>
+        <div class="field">
+          <label for="login-nama">Nama Guru</label>
+          <input id="login-nama" placeholder="Contoh: Bu Sari" autocomplete="off" required aria-required="true">
+        </div>
+        <div class="field">
+          <label for="login-sekolah">Asal Sekolah (opsional)</label>
+          <input id="login-sekolah" placeholder="Contoh: SMAN 1 Kupang" autocomplete="off">
+        </div>
+        <button class="btn primary" id="btn-login" type="button" style="width:100%">Masuk</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DASHBOARD ===== -->
+  <section class="view" id="view-dashboard" aria-label="Dashboard">
+    <div class="page-head">
+      <h1 id="greet">Selamat datang</h1>
+      <p>Ringkasan aktivitas dan pintasan.</p>
+    </div>
+    <div class="grid cols-4" style="margin-bottom:16px">
+      <div class="stat"><div class="lbl">Total soal tersimpan</div><div class="num" id="stat-total">0</div></div>
+      <div class="stat"><div class="lbl">Set soal</div><div class="num" id="stat-sets">0</div></div>
+      <div class="stat"><div class="lbl">Mata pelajaran</div><div class="num" id="stat-mapel">0</div></div>
+      <div class="stat"><div class="lbl">Bisa dipakai offline</div><div class="num">Ya</div></div>
+    </div>
+    <div class="card">
+      <h2>Mulai cepat</h2>
+      <p class="hint" style="margin-bottom:14px">Pilih salah satu langkah berikut untuk mulai bekerja.</p>
+      <div class="actions">
+        <button class="btn primary" type="button" onclick="appShowView('buat')">Buat soal baru</button>
+        <button class="btn ghost" type="button" onclick="appShowView('bank')">Buka bank soal</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUAT SOAL ===== -->
+  <section class="view" id="view-buat" aria-label="Buat soal">
+    <div class="page-head">
+      <h1>Buat Soal</h1>
+      <p>Isi capaian pembelajaran dan pilih level kognitif, lalu buat soal.</p>
+    </div>
+
+    <div class="card">
+      <div class="grid cols-2">
+        <div class="field">
+          <label for="f-mapel">Mata pelajaran</label>
+          <select id="f-mapel" required aria-required="true"></select>
+        </div>
+        <div class="field">
+          <label for="f-kelas">Kelas</label>
+          <select id="f-kelas" required aria-required="true"></select>
+        </div>
+      </div>
+
+      <div class="field" id="f-cp-field">
+        <label for="f-cp">Materi / Capaian Pembelajaran</label>
+        <textarea id="f-cp" placeholder="Contoh: Perubahan iklim dan dampaknya bagi kehidupan" required aria-required="true"></textarea>
+        <p class="hint">Tekan Enter untuk membuat soal, Shift + Enter untuk baris baru.</p>
+      </div>
+
+      <div class="grid cols-2">
+        <div class="field">
+          <label for="f-level">Level kognitif</label>
+          <select id="f-level" required aria-required="true">
+            <option value="C4">C4 · Analisis</option>
+            <option value="C5">C5 · Evaluasi</option>
+            <option value="C6">C6 · Mencipta</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-tipe">Bentuk soal</label>
+          <select id="f-tipe" required aria-required="true">
+            <option value="pg">Pilihan Ganda</option>
+            <option value="essay">Uraian</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field" id="f-jumlah-field">
+        <label for="f-jumlah">Jumlah soal (1 - 50)</label>
+        <input id="f-jumlah" type="number" min="1" max="50" value="5" required aria-required="true">
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="btn-generate" type="button">Buat Soal</button>
+        <button class="btn ghost" id="btn-reset" type="button">Reset</button>
+      </div>
+    </div>
+
+    <div class="card" id="preview-card" style="display:none">
+      <h2>Pratinjau Soal</h2>
+      <div id="preview-body"></div>
+      <div class="actions no-print" style="margin-top:16px">
+        <button class="btn outline-success" id="btn-print-no-key" type="button">Cetak Soal (tanpa kunci)</button>
+        <button class="btn success" id="btn-print-with-key" type="button">Cetak Soal + Kunci</button>
+        <button class="btn ghost" id="btn-download-no-key" type="button">Unduh Word (tanpa kunci)</button>
+        <button class="btn ghost" id="btn-download-with-key" type="button">Unduh Word + Kunci</button>
+        <button class="btn primary" id="btn-simpan" type="button">Simpan ke Bank Soal</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BANK SOAL ===== -->
+  <section class="view" id="view-bank" aria-label="Bank soal">
+    <div class="page-head">
+      <h1>Bank Soal</h1>
+      <p>Soal yang pernah Anda simpan tersimpan di perangkat ini.</p>
+    </div>
+    <div class="card">
+      <div class="field">
+        <label for="search-bank">Cari soal</label>
+        <input id="search-bank" type="search" placeholder="Cari berdasarkan mapel atau materi">
+      </div>
+      <div id="bank-body"></div>
+      <div class="actions" style="margin-top:16px">
+        <button class="btn ghost" id="btn-reset-bank" type="button">Kosongkan Bank Soal</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROFIL ===== -->
+  <section class="view" id="view-profil" aria-label="Profil">
+    <div class="page-head">
+      <h1>Profil</h1>
+      <p>Data ini dipakai sebagai kepala lembar soal saat dicetak.</p>
+    </div>
+    <div class="card">
+      <div class="field">
+        <label for="p-nama">Nama guru</label>
+        <input id="p-nama" type="text" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="p-sekolah">Asal sekolah</label>
+        <input id="p-sekolah" type="text" autocomplete="off">
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="btn-simpan-profil" type="button">Simpan Profil</button>
+        <button class="btn ghost" type="button" id="btn-logout">Keluar</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<!-- Lembar cetak (disembunyikan sampai proses cetak) -->
+<div class="sheet" id="sheet" aria-hidden="true"></div>
+
+<!-- Notifikasi aksesibel -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module">
+  import { init } from "./app.js";
+  init();
+</script>
+</body>
+</html>

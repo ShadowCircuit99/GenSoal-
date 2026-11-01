@@ -1,0 +1,20 @@
+{
+  "name": "GenSoal - Generator Soal HOTS Kurikulum Merdeka",
+  "short_name": "GenSoal",
+  "description": "Alat bantu guru SMA/SMK daerah 3T menyusun soal HOTS dari capaian pembelajaran Kurikulum Merdeka.",
+  "lang": "id",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6fa",
+  "theme_color": "#2f6fed",
+  "icons": [
+    {
+      "src": "./assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

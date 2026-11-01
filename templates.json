@@ -1,0 +1,1199 @@
+{
+  "version": "2.0.0",
+  "updated": "2026-11-01",
+  "description": "Template soal HOTS per mapel dan level kognitif (C4, C5, C6). Placeholder {M} diganti materi pokok yang diisi guru. Tiap mapel punya kalimat yang cocok dengan karakter materinya.",
+  "mapel": {
+
+    "Bahasa Indonesia": {
+      "C4": [
+        {
+          "stem": "Bacalah kutipan berikut yang membahas {M}. Hubungan sebab dan akibat antar bagian teks tersebut adalah ...",
+          "opsi": [
+            "Bagian awal menjadi penyebab munculnya persoalan pada bagian berikutnya",
+            "Tiap bagian berdiri sendiri tanpa saling memengaruhi",
+            "Hubungan antar bagian hanya berupa urutan waktu",
+            "Tidak ada hubungan yang bisa ditelusuri dari teks"
+          ],
+          "jawab": "Bagian awal menjadi penyebab munculnya persoalan pada bagian berikutnya",
+          "rubrik": "Siswa mampu menelusuri hubungan sebab akibat dalam teks tentang {M}."
+        },
+        {
+          "stem": "Perhatikan dua teks yang sama-sama membahas {M}. Perbedaan sudut pandang penulis pada kedua teks adalah ...",
+          "opsi": [
+            "Keduanya menilai persoalan yang sama dari sisi yang berbeda",
+            "Kedua teks menyampaikan isi yang persis sama",
+            "Kedua teks tidak membahas topik yang sama",
+            "Keduanya ditulis pada tahun yang sama"
+          ],
+          "jawab": "Keduanya menilai persoalan yang sama dari sisi yang berbeda",
+          "rubrik": "Siswa dapat membandingkan sudut pandang dua teks tentang {M}."
+        },
+        {
+          "stem": "Cermati kalimat berikut yang memuat gagasan tentang {M}. Gagasan utama yang terkandung di dalamnya adalah ...",
+          "opsi": [
+            "Inti pesan yang ingin disampaikan penulis tentang {M}",
+            "Rincian contoh yang tidak penting",
+            "Kata ulang yang muncul berulang",
+            "Jumlah kata dalam kalimat"
+          ],
+          "jawab": "Inti pesan yang ingin disampaikan penulis tentang {M}",
+          "rubrik": "Siswa mampu menemukan gagasan utama kutipan tentang {M}."
+        },
+        {
+          "stem": "Dalam wacana tentang {M}, penulis menyampaikan fakta dan opini sekaligus. Pernyataan yang termasuk fakta adalah ...",
+          "opsi": [
+            "Pernyataan yang dapat dibuktikan dengan data dan sumber",
+            "Pernyataan yang berisi perasaan penulis",
+            "Pernyataan yang bersifat saran pribadi",
+            "Pernyataan yang memakai kata sebaiknya"
+          ],
+          "jawab": "Pernyataan yang dapat dibuktikan dengan data dan sumber",
+          "rubrik": "Siswa dapat membedakan fakta dan opini dalam wacana tentang {M}."
+        },
+        {
+          "stem": "Perhatikan paragraf tentang {M} berikut. Pola pengembangan paragraf yang dipakai penulis adalah ...",
+          "opsi": [
+            "Menjelaskan gagasan umum lalu merincinya dengan contoh",
+            "Menyebut contoh acak tanpa gagasan utama",
+            "Mengulang kalimat yang sama berkali-kali",
+            "Menyusun kalimat tanpa hubungan makna"
+          ],
+          "jawab": "Menjelaskan gagasan umum lalu merincinya dengan contoh",
+          "rubrik": "Siswa mampu mengenali pola pengembangan paragraf tentang {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Dua penulis berpendapat berbeda tentang cara menyampaikan gagasan mengenai {M}. Pendapat manakah yang paling kuat untuk dipakai?",
+          "opsi": [
+            "Pendapat yang didukung data dan contoh yang jelas",
+            "Pendapat yang paling panjang uraiannya",
+            "Pendapat yang memakai kata-kata sulit",
+            "Pendapat yang mengikuti pendapat orang banyak"
+          ],
+          "jawab": "Pendapat yang didukung data dan contoh yang jelas",
+          "rubrik": "Siswa dapat menilai kekuatan pendapat tentang {M} berdasarkan bukti."
+        },
+        {
+          "stem": "Sebuah tulisan tentang {M} memakai diksi dan gaya bahasa tertentu. Pilihan gaya bahasa manakah yang paling tepat untuk pembaca sasaran?",
+          "opsi": [
+            "Gaya yang sesuai latar pembaca dan tetap jelas maknanya",
+            "Gaya yang paling rumit agar terlihat berbobot",
+            "Gaya yang menumpuk istilah asing tanpa penjelasan",
+            "Gaya yang mengabaikan kejelasan pesan"
+          ],
+          "jawab": "Gaya yang sesuai latar pembaca dan tetap jelas maknanya",
+          "rubrik": "Siswa mampu mengevaluasi pilihan diksi dan gaya bahasa pada teks tentang {M}."
+        },
+        {
+          "stem": "Kutipan berikut tentang {M} ditulis dengan dua cara berbeda. Kutipan yang paling layak dipakai dalam karangan ilmiah adalah ...",
+          "opsi": [
+            "Kutipan yang menyebut sumber dan disampaikan secara objektif",
+            "Kutipan yang berisi kabar tanpa sumber",
+            "Kutipan yang memakai bahasa gaul berlebihan",
+            "Kutipan yang mencampur opini pribadi tanpa data"
+          ],
+          "jawab": "Kutipan yang menyebut sumber dan disampaikan secara objektif",
+          "rubrik": "Siswa dapat memilih kutipan teks tentang {M} yang layak untuk karangan ilmiah."
+        },
+        {
+          "stem": "Sebuah teks tentang {M} akan dinilai dari keefektifan kalimatnya. Kalimat yang paling efektif adalah ...",
+          "opsi": [
+            "Kalimat yang singkat, jelas, dan tidak boros kata",
+            "Kalimat yang sangat panjang dan berputar-putar",
+            "Kalimat dengan banyak kata mubazir",
+            "Kalimat yang maknanya harus ditebak"
+          ],
+          "jawab": "Kalimat yang singkat, jelas, dan tidak boros kata",
+          "rubrik": "Siswa mampu menilai keefektifan kalimat dalam teks tentang {M}."
+        },
+        {
+          "stem": "Seorang siswa menyunting tulisannya tentang {M}. Perbaikan manakah yang paling penting dilakukan?",
+          "opsi": [
+            "Memperbaiki kesalahan ejaan, tanda baca, dan kejelasan gagasan",
+            "Mengganti seluruh isi tanpa membaca ulang",
+            "Memperbanyak kalimat tanpa menambah isi",
+            "Mengabaikan struktur teks yang runtut"
+          ],
+          "jawab": "Memperbaiki kesalahan ejaan, tanda baca, dan kejelasan gagasan",
+          "rubrik": "Siswa dapat menentukan prioritas penyuntingan teks tentang {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Susunlah paragraf argumentatif singkat tentang {M}. Tuliskan gagasan utama dan dua bukti pendukungnya.",
+          "opsi": null,
+          "jawab": "Paragraf dengan gagasan utama jelas dan bukti pendukung yang relevan",
+          "rubrik": "Siswa mampu menyusun paragraf argumentatif tentang {M}."
+        },
+        {
+          "stem": "Buatlah langkah-langkah penyuntingan untuk memperbaiki sebuah teks tentang {M}, mulai dari membaca hingga memperbaiki ejaan.",
+          "opsi": null,
+          "jawab": "Langkah penyuntingan yang runtut dan menyasar kesalahan nyata",
+          "rubrik": "Siswa mampu merancang langkah penyuntingan teks tentang {M}."
+        },
+        {
+          "stem": "Tulislah teks deskripsi pendek tentang {M} dengan pembaca sasaran teman sebaya. Jelaskan pilihan kata yang kamu pakai.",
+          "opsi": null,
+          "jawab": "Teks deskripsi yang sesuai pembaca sasaran disertai alasan pilihan kata",
+          "rubrik": "Siswa mampu menghasilkan teks deskripsi tentang {M} bagi pembaca sasaran."
+        },
+        {
+          "stem": "Rancanglah kerangka karangan bertema {M}. Tuliskan tesis, pokok bahasan tiap paragraf, dan simpulannya.",
+          "opsi": null,
+          "jawab": "Kerangka karangan dengan tesis dan pokok bahasan yang berhubungan",
+          "rubrik": "Siswa mampu merancang kerangka karangan bertema {M}."
+        },
+        {
+          "stem": "Buatlah sebuah poster singkat berisi ajakan tentang {M}. Sertakan kalimat ajakan dan alasan yang meyakinkan.",
+          "opsi": null,
+          "jawab": "Poster dengan kalimat ajakan dan alasan yang masuk akal",
+          "rubrik": "Siswa mampu menyusun teks persuasif singkat tentang {M}."
+        }
+      ]
+    },
+
+    "Matematika": {
+      "C4": [
+        {
+          "stem": "Perhatikan penyelesaian masalah berikut yang memakai konsep {M}. Langkah manakah yang menjadi kunci penyelesaiannya?",
+          "opsi": [
+            "Langkah yang memilih cara atau rumus sesuai ciri soal",
+            "Langkah yang menyalin angka tanpa dihitung",
+            "Langkah yang menebak hasil akhir",
+            "Langkah yang mengabaikan informasi pada soal"
+          ],
+          "jawab": "Langkah yang memilih cara atau rumus sesuai ciri soal",
+          "rubrik": "Siswa dapat menganalisis langkah penyelesaian masalah {M}."
+        },
+        {
+          "stem": "Dua cara dipakai untuk menyelesaikan soal tentang {M}. Perbedaan hasil yang mungkin muncul dari kedua cara itu adalah ...",
+          "opsi": [
+            "Hasil harus sama bila langkahnya benar dan konsisten",
+            "Hasil selalu berbeda meski langkahnya benar",
+            "Hasil tidak dapat dibandingkan",
+            "Hasil hanya benar bila dihitung dengan kalkulator"
+          ],
+          "jawab": "Hasil harus sama bila langkahnya benar dan konsisten",
+          "rubrik": "Siswa mampu membandingkan dua cara penyelesaian pada {M}."
+        },
+        {
+          "stem": "Perhatikan pola bilangan atau pola data berikut yang berkaitan dengan {M}. Aturan yang mengatur pola tersebut adalah ...",
+          "opsi": [
+            "Hubungan tetap yang berulang pada tiap langkah",
+            "Nilai yang berubah tanpa aturan",
+            "Pola yang hanya muncul satu kali",
+            "Urutan yang bergantung pada angka acak"
+          ],
+          "jawab": "Hubungan tetap yang berulang pada tiap langkah",
+          "rubrik": "Siswa dapat menemukan aturan pola pada {M}."
+        },
+        {
+          "stem": "Sebuah pernyataan tentang {M} tampak benar untuk sebagian contoh. Agar kesimpulannya sah, hal yang perlu diperiksa adalah ...",
+          "opsi": [
+            "Apakah pernyataan berlaku untuk semua contoh pada ruang lingkupnya",
+            "Apakah pernyataan panjang",
+            "Apakah penulisnya terkenal",
+            "Apakah angkanya genap"
+          ],
+          "jawab": "Apakah pernyataan berlaku untuk semua contoh pada ruang lingkupnya",
+          "rubrik": "Siswa mampu menguji keabsahan pernyataan pada {M}."
+        },
+        {
+          "stem": "Perhatikan model atau grafik berikut yang menggambarkan {M}. Kesimpulan yang paling tepat dari model tersebut adalah ...",
+          "opsi": [
+            "Pernyataan yang sesuai dengan kecenderungan data pada model",
+            "Pernyataan yang bertentangan dengan data",
+            "Pernyataan yang tidak dapat diuji",
+            "Pernyataan yang mengabaikan sumbu dan satuan"
+          ],
+          "jawab": "Pernyataan yang sesuai dengan kecenderungan data pada model",
+          "rubrik": "Siswa dapat membaca model atau grafik pada {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Dua pemodelan matematika berbeda dipakai untuk masalah {M}. Model manakah yang paling tepat dipakai?",
+          "opsi": [
+            "Model yang sesuai dengan data dan asumsi masalahnya",
+            "Model yang paling banyak memakai angka",
+            "Model yang paling rumit perhitungannya",
+            "Model yang dipilih tanpa memeriksa asumsi"
+          ],
+          "jawab": "Model yang sesuai dengan data dan asumsi masalahnya",
+          "rubrik": "Siswa dapat memilih model matematika yang tepat untuk masalah {M}."
+        },
+        {
+          "stem": "Sebuah strategi dipakai untuk menyelesaikan soal {M}. Pertimbangan utama untuk menilai keefektifan strategi itu adalah ...",
+          "opsi": [
+            "Ketepatan langkah dan kesesuaiannya dengan soal",
+            "Kecepatan menebak jawaban",
+            "Jumlah coretan pada kertas",
+            "Panjangnya penjelasan yang ditulis"
+          ],
+          "jawab": "Ketepatan langkah dan kesesuaiannya dengan soal",
+          "rubrik": "Siswa mampu mengevaluasi strategi penyelesaian soal {M}."
+        },
+        {
+          "stem": "Hasil perhitungan masalah {M} tidak masuk akal dibanding perkiraan awal. Langkah pemeriksaan yang paling tepat adalah ...",
+          "opsi": [
+            "Menelusuri ulang langkah dan memeriksa satuan serta tanda",
+            "Menerima hasil apa pun tanpa diperiksa",
+            "Mengganti seluruh soal dengan yang lebih mudah",
+            "Melaporkan hasil tanpa memeriksa cara"
+          ],
+          "jawab": "Menelusuri ulang langkah dan memeriksa satuan serta tanda",
+          "rubrik": "Siswa dapat mengevaluasi kewajaran hasil pada masalah {M}."
+        },
+        {
+          "stem": "Sebuah klaim tentang {M} diusulkan kepada kelas. Cara paling tepat untuk menilai kebenaran klaim itu adalah ...",
+          "opsi": [
+            "Menguji klaim dengan contoh dan pembuktian yang sah",
+            "Memilih klaim yang paling banyak disukai",
+            "Memilih klaim dari teman terdekat",
+            "Memilih klaim yang paling cepat ditulis"
+          ],
+          "jawab": "Menguji klaim dengan contoh dan pembuktian yang sah",
+          "rubrik": "Siswa mampu menilai kebenaran klaim matematis tentang {M}."
+        },
+        {
+          "stem": "Dua tabel data disajikan untuk memahami {M}. Tabel manakah yang lebih layak dipakai untuk menarik kesimpulan?",
+          "opsi": [
+            "Tabel yang datanya lengkap, konsisten, dan jelas satuannya",
+            "Tabel yang datanya banyak yang kosong",
+            "Tabel yang satuannya tidak jelas",
+            "Tabel yang angkanya saling bertentangan tanpa penjelasan"
+          ],
+          "jawab": "Tabel yang datanya lengkap, konsisten, dan jelas satuannya",
+          "rubrik": "Siswa dapat menilai kelayakan data pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah model matematika sederhana untuk menyelesaikan masalah nyata yang berkaitan dengan {M}. Tuliskan variabel dan langkahnya.",
+          "opsi": null,
+          "jawab": "Model dengan variabel jelas dan langkah penyelesaian runtut",
+          "rubrik": "Siswa mampu merancang model matematika untuk masalah {M}."
+        },
+        {
+          "stem": "Susunlah satu soal cerita yang memakai konsep {M}, lengkap dengan penyelesaiannya.",
+          "opsi": null,
+          "jawab": "Soal cerita yang masuk akal disertai penyelesaian benar",
+          "rubrik": "Siswa mampu membuat soal cerita dengan konsep {M}."
+        },
+        {
+          "stem": "Buatlah satu contoh penerapan {M} dalam kegiatan sehari-hari, lalu jelaskan cara menghitung atau menaksirnya.",
+          "opsi": null,
+          "jawab": "Contoh penerapan relevan disertai langkah perhitungan",
+          "rubrik": "Siswa mampu menerapkan {M} pada situasi nyata."
+        },
+        {
+          "stem": "Rancanglah sebuah permainan atau teka-teki sederhana yang memakai aturan {M}. Jelaskan cara memainkannya.",
+          "opsi": null,
+          "jawab": "Permainan dengan aturan berbasis {M} yang jelas",
+          "rubrik": "Siswa mampu menciptakan permainan berbasis konsep {M}."
+        },
+        {
+          "stem": "Susunlah langkah-langkah penyelesaian umum untuk masalah bertipe {M}, lalu uji pada satu contoh.",
+          "opsi": null,
+          "jawab": "Langkah umum yang runtut dan berhasil pada contoh uji",
+          "rubrik": "Siswa mampu menyusun prosedur penyelesaian masalah {M}."
+        }
+      ]
+    },
+
+    "Fisika": {
+      "C4": [
+        {
+          "stem": "Perhatikan fenomena berikut yang berkaitan dengan {M}. Hubungan sebab akibat antar besaran pada fenomena itu adalah ...",
+          "opsi": [
+            "Perubahan satu besaran memengaruhi besaran lain secara terukur",
+            "Tiap besaran berubah tanpa saling memengaruhi",
+            "Besaran hanya berubah secara acak",
+            "Tidak ada besaran yang dapat diukur"
+          ],
+          "jawab": "Perubahan satu besaran memengaruhi besaran lain secara terukur",
+          "rubrik": "Siswa dapat menganalisis hubungan besaran pada {M}."
+        },
+        {
+          "stem": "Dua percobaan dilakukan untuk menelaah {M} dengan perlakuan berbeda. Perbedaan hasil yang wajar muncul karena ...",
+          "opsi": [
+            "Perbedaan variabel yang diubah pada tiap percobaan",
+            "Perbedaan warna alat yang dipakai",
+            "Perbedaan nama pengamat",
+            "Perbedaan waktu istirahat pengamat"
+          ],
+          "jawab": "Perbedaan variabel yang diubah pada tiap percobaan",
+          "rubrik": "Siswa mampu membandingkan hasil percobaan pada {M}."
+        },
+        {
+          "stem": "Perhatikan data pengukuran berikut yang berhubungan dengan {M}. Pola yang tampak dari data tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan yang konsisten antara besaran yang diukur",
+            "Data yang tidak membentuk pola apa pun",
+            "Nilai yang selalu sama pada setiap pengukuran",
+            "Pola yang hanya muncul bila data diacak"
+          ],
+          "jawab": "Kecenderungan yang konsisten antara besaran yang diukur",
+          "rubrik": "Siswa dapat membaca pola data pengukuran pada {M}."
+        },
+        {
+          "stem": "Sebuah pernyataan diajukan tentang {M}. Agar pernyataan itu layak disebut kesimpulan ilmiah, syaratnya adalah ...",
+          "opsi": [
+            "Didukung data hasil pengukuran yang dapat diulang",
+            "Disampaikan dengan suara lantang",
+            "Ditulis dengan istilah yang sulit",
+            "Disetujui banyak orang tanpa diuji"
+          ],
+          "jawab": "Didukung data hasil pengukuran yang dapat diulang",
+          "rubrik": "Siswa mampu menilai pernyataan ilmiah pada {M}."
+        },
+        {
+          "stem": "Perhatikan gambar diagram gaya atau grafik berikut terkait {M}. Kesimpulan yang tepat dari gambar tersebut adalah ...",
+          "opsi": [
+            "Pernyataan yang sesuai dengan arah dan besar besaran pada gambar",
+            "Pernyataan yang mengabaikan arah besaran",
+            "Pernyataan yang bertentangan dengan gambar",
+            "Pernyataan yang tidak memakai satuan"
+          ],
+          "jawab": "Pernyataan yang sesuai dengan arah dan besar besaran pada gambar",
+          "rubrik": "Siswa dapat menganalisis diagram pada materi {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Dua rancangan percobaan diajukan untuk menguji {M}. Rancangan manakah yang paling layak dipakai?",
+          "opsi": [
+            "Rancangan yang mengubah satu variabel dan mengontrol variabel lain",
+            "Rancangan yang mengubah banyak variabel sekaligus",
+            "Rancangan tanpa alat ukur yang jelas",
+            "Rancangan yang tidak mencatat data"
+          ],
+          "jawab": "Rancangan yang mengubah satu variabel dan mengontrol variabel lain",
+          "rubrik": "Siswa dapat menilai rancangan percobaan pada {M}."
+        },
+        {
+          "stem": "Hasil perhitungan pada masalah {M} berbeda jauh dari perkiraan. Penilaian yang paling tepat terhadap hasil itu adalah ...",
+          "opsi": [
+            "Hasil perlu diperiksa ulang karena mungkin ada kesalahan satuan atau langkah",
+            "Hasil pasti benar tanpa perlu diperiksa",
+            "Hasil salah karena berbeda dari perkiraan",
+            "Hasil dibuang tanpa ditelusuri"
+          ],
+          "jawab": "Hasil perlu diperiksa ulang karena mungkin ada kesalahan satuan atau langkah",
+          "rubrik": "Siswa mampu mengevaluasi kewajaran hasil pada {M}."
+        },
+        {
+          "stem": "Sebuah alat atau teknologi memanfaatkan konsep {M}. Pertimbangan utama untuk menilai kelayakannya dipakai di sekolah adalah ...",
+          "opsi": [
+            "Kesesuaian konsep, keamanan, dan kemudahan penggunaannya",
+            "Harga paling mahal",
+            "Warna paling menarik",
+            "Merek paling terkenal"
+          ],
+          "jawab": "Kesesuaian konsep, keamanan, dan kemudahan penggunaannya",
+          "rubrik": "Siswa dapat mengevaluasi penerapan teknologi berbasis {M}."
+        },
+        {
+          "stem": "Sebuah laporan praktikum tentang {M} perlu diperbaiki. Bagian yang paling penting dibenahi lebih dulu adalah ...",
+          "opsi": [
+            "Data dan analisis yang tidak sesuai dengan tujuan percobaan",
+            "Jenis huruf pada laporan",
+            "Warna sampul laporan",
+            "Jumlah halaman laporan"
+          ],
+          "jawab": "Data dan analisis yang tidak sesuai dengan tujuan percobaan",
+          "rubrik": "Siswa mampu menilai kualitas laporan praktikum {M}."
+        },
+        {
+          "stem": "Dua penjelasan diajukan untuk menerangkan gejala pada {M}. Penjelasan manakah yang lebih dapat diterima?",
+          "opsi": [
+            "Penjelasan yang sesuai hukum fisika dan data pengamatan",
+            "Penjelasan yang paling mudah diucapkan",
+            "Penjelasan yang mengandalkan perasaan",
+            "Penjelasan tanpa dasar pengamatan"
+          ],
+          "jawab": "Penjelasan yang sesuai hukum fisika dan data pengamatan",
+          "rubrik": "Siswa dapat memilih penjelasan ilmiah pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah percobaan sederhana untuk menyelidiki {M}. Tuliskan tujuan, alat, dan langkahnya.",
+          "opsi": null,
+          "jawab": "Rancangan percobaan dengan tujuan, alat, dan langkah yang jelas",
+          "rubrik": "Siswa mampu merancang percobaan untuk menyelidiki {M}."
+        },
+        {
+          "stem": "Buatlah sebuah alat peraga sederhana yang menerapkan konsep {M}. Jelaskan cara kerja dan cara membuatnya.",
+          "opsi": null,
+          "jawab": "Alat peraga yang menerapkan {M} disertai cara kerja",
+          "rubrik": "Siswa mampu membuat alat peraga berbasis konsep {M}."
+        },
+        {
+          "stem": "Susunlah sebuah model atau analogi untuk menjelaskan {M} kepada teman yang belum paham.",
+          "opsi": null,
+          "jawab": "Model atau analogi yang sesuai dan mudah dipahami",
+          "rubrik": "Siswa mampu menyusun model penjelasan untuk {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah poster edukasi yang menjelaskan penerapan {M} dalam keselamatan atau teknologi sehari-hari.",
+          "opsi": null,
+          "jawab": "Poster yang menjelaskan penerapan {M} secara tepat",
+          "rubrik": "Siswa mampu menyajikan penerapan {M} dalam bentuk poster."
+        },
+        {
+          "stem": "Buatlah sebuah prosedur pengukuran untuk mengumpulkan data tentang {M}, lalu sebutkan cara mengolah datanya.",
+          "opsi": null,
+          "jawab": "Prosedur pengukuran yang runtut disertai cara pengolahan data",
+          "rubrik": "Siswa mampu menyusun prosedur pengukuran pada {M}."
+        }
+      ]
+    },
+
+    "Biologi": {
+      "C4": [
+        {
+          "stem": "Perhatikan proses berikut yang berkaitan dengan {M}. Hubungan antar tahap pada proses tersebut adalah ...",
+          "opsi": [
+            "Tiap tahap memengaruhi tahap berikutnya secara berurutan",
+            "Tiap tahap berjalan terpisah tanpa kaitan",
+            "Urutan tahap tidak dapat diamati",
+            "Semua tahap terjadi pada waktu yang sama"
+          ],
+          "jawab": "Tiap tahap memengaruhi tahap berikutnya secara berurutan",
+          "rubrik": "Siswa dapat menganalisis hubungan antar tahap pada {M}."
+        },
+        {
+          "stem": "Dua makhluk hidup atau dua organ diperbandingkan terkait {M}. Perbedaan pokok antara keduanya adalah ...",
+          "opsi": [
+            "Perbedaan ciri atau fungsi yang menyesuaikan perannya",
+            "Perbedaan warna saja",
+            "Perbedaan ukuran tulisan",
+            "Perbedaan nama yang diberikan"
+          ],
+          "jawab": "Perbedaan ciri atau fungsi yang menyesuaikan perannya",
+          "rubrik": "Siswa mampu membandingkan ciri atau fungsi pada {M}."
+        },
+        {
+          "stem": "Perhatikan data pengamatan berikut tentang {M}. Pola yang tampak dari data tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan yang berhubungan dengan kondisi pengamatan",
+            "Data yang tidak menunjukkan pola",
+            "Nilai yang selalu sama",
+            "Pola yang hanya muncul jika data diacak"
+          ],
+          "jawab": "Kecenderungan yang berhubungan dengan kondisi pengamatan",
+          "rubrik": "Siswa dapat membaca pola data pada {M}."
+        },
+        {
+          "stem": "Dalam pembahasan {M}, ditemukan pernyataan yang belum tentu benar. Ciri pernyataan yang masih perlu diuji adalah ...",
+          "opsi": [
+            "Belum didukung bukti atau pengamatan yang cukup",
+            "Sudah sesuai dengan sumber terpercaya",
+            "Sudah diuji berkali-kali",
+            "Sudah tercatat dalam buku pelajaran"
+          ],
+          "jawab": "Belum didukung bukti atau pengamatan yang cukup",
+          "rubrik": "Siswa mampu mengenali pernyataan yang perlu diuji pada {M}."
+        },
+        {
+          "stem": "Perhatikan skema atau diagram proses berikut terkait {M}. Hubungan yang digambarkan skema itu adalah ...",
+          "opsi": [
+            "Alur yang menunjukkan urutan dan keterkaitan antar bagian",
+            "Gambar yang tidak memiliki makna",
+            "Hiasan tanpa keterangan",
+            "Urutan yang bisa dibolak-balik tanpa akibat"
+          ],
+          "jawab": "Alur yang menunjukkan urutan dan keterkaitan antar bagian",
+          "rubrik": "Siswa dapat menganalisis skema pada materi {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Dua penjelasan diajukan untuk menerangkan gejala pada {M}. Penjelasan manakah yang paling dapat dipercaya?",
+          "opsi": [
+            "Penjelasan yang sesuai hasil pengamatan dan konsep biologi",
+            "Penjelasan yang paling populer di media sosial",
+            "Penjelasan yang tanpa bukti pengamatan",
+            "Penjelasan yang mengandalkan dugaan pribadi"
+          ],
+          "jawab": "Penjelasan yang sesuai hasil pengamatan dan konsep biologi",
+          "rubrik": "Siswa dapat menilai penjelasan ilmiah pada {M}."
+        },
+        {
+          "stem": "Sebuah kebiasaan berkaitan dengan {M} memengaruhi kesehatan atau lingkungan. Penilaian yang paling tepat terhadap kebiasaan itu adalah ...",
+          "opsi": [
+            "Dinilai dari dampaknya yang dapat diamati dan dijelaskan",
+            "Dinilai dari banyaknya orang yang melakukannya",
+            "Dinilai dari kebiasaan orang terkenal",
+            "Dinilai tanpa memperhatikan akibatnya"
+          ],
+          "jawab": "Dinilai dari dampaknya yang dapat diamati dan dijelaskan",
+          "rubrik": "Siswa mampu mengevaluasi kebiasaan terkait {M} berdasarkan dampaknya."
+        },
+        {
+          "stem": "Dua rancangan pengamatan diajukan untuk menelaah {M}. Rancangan manakah yang lebih layak dipakai?",
+          "opsi": [
+            "Rancangan yang mengubah satu faktor dan mencatat faktor lain",
+            "Rancangan yang mengubah banyak faktor sekaligus",
+            "Rancangan tanpa catatan hasil",
+            "Rancangan tanpa pembanding"
+          ],
+          "jawab": "Rancangan yang mengubah satu faktor dan mencatat faktor lain",
+          "rubrik": "Siswa dapat menilai rancangan pengamatan pada {M}."
+        },
+        {
+          "stem": "Sebuah solusi diajukan untuk mengatasi gangguan yang berkaitan dengan {M}. Solusi yang paling masuk akal adalah ...",
+          "opsi": [
+            "Solusi yang menyasar penyebab dan dapat dijalankan sehari-hari",
+            "Solusi yang hanya menutupi gejala sebentar",
+            "Solusi yang paling mahal tanpa melihat hasil",
+            "Solusi yang tidak mungkin diterapkan"
+          ],
+          "jawab": "Solusi yang menyasar penyebab dan dapat dijalankan sehari-hari",
+          "rubrik": "Siswa mampu mengevaluasi solusi terkait {M}."
+        },
+        {
+          "stem": "Sebuah laporan pengamatan tentang {M} berisi kesimpulan yang terlalu jauh dari data. Penilaian yang tepat adalah ...",
+          "opsi": [
+            "Kesimpulan harus dibatasi sesuai data yang benar-benar diperoleh",
+            "Kesimpulan dibiarkan karena terlihat menarik",
+            "Data diabaikan demi kesimpulan",
+            "Data ditambah tanpa pengamatan"
+          ],
+          "jawab": "Kesimpulan harus dibatasi sesuai data yang benar-benar diperoleh",
+          "rubrik": "Siswa mampu menilai kesesuaian kesimpulan dengan data pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah pengamatan sederhana untuk menelaah {M}. Tuliskan tujuan, objek, dan langkahnya.",
+          "opsi": null,
+          "jawab": "Rancangan pengamatan dengan tujuan, objek, dan langkah yang jelas",
+          "rubrik": "Siswa mampu merancang pengamatan untuk menelaah {M}."
+        },
+        {
+          "stem": "Buatlah sebuah poster edukasi tentang cara menjaga kesehatan atau lingkungan yang berkaitan dengan {M}. Jelaskan isinya.",
+          "opsi": null,
+          "jawab": "Poster edukasi yang sesuai konsep {M} disertai penjelasan",
+          "rubrik": "Siswa mampu membuat poster edukasi bertema {M}."
+        },
+        {
+          "stem": "Susunlah sebuah model sederhana (gambar atau bagan) untuk menjelaskan proses pada {M}, lalu jelaskan tiap bagiannya.",
+          "opsi": null,
+          "jawab": "Model dengan bagian-bagian berlabel dan penjelasan tepat",
+          "rubrik": "Siswa mampu menyusun model untuk menjelaskan {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah kegiatan di lingkungan sekolah yang menerapkan pemahaman tentang {M}. Jabarkan langkahnya.",
+          "opsi": null,
+          "jawab": "Kegiatan yang menerapkan {M} dengan langkah masuk akal",
+          "rubrik": "Siswa mampu merancang kegiatan berbasis {M}."
+        },
+        {
+          "stem": "Buatlah tabel pengamatan untuk mengumpulkan data tentang {M}, lengkap dengan kolom dan cara mengisinya.",
+          "opsi": null,
+          "jawab": "Tabel pengamatan dengan kolom jelas dan cara pengisian",
+          "rubrik": "Siswa mampu merancang tabel pengamatan untuk {M}."
+        }
+      ]
+    },
+
+    "Sejarah": {
+      "C4": [
+        {
+          "stem": "Perhatikan rangkaian peristiwa berikut yang berkaitan dengan {M}. Hubungan sebab akibat antar peristiwa tersebut adalah ...",
+          "opsi": [
+            "Peristiwa awal menjadi pemicu terjadinya peristiwa berikutnya",
+            "Tiap peristiwa berdiri sendiri tanpa kaitan",
+            "Peristiwa hanya berurutan tanpa saling memengaruhi",
+            "Urutan peristiwa tidak dapat ditelusuri"
+          ],
+          "jawab": "Peristiwa awal menjadi pemicu terjadinya peristiwa berikutnya",
+          "rubrik": "Siswa mampu menganalisis hubungan sebab akibat pada {M}."
+        },
+        {
+          "stem": "Dua sumber sejarah berbicara tentang {M} dengan penekanan berbeda. Perbedaan kedua sumber itu terletak pada ...",
+          "opsi": [
+            "Sudut pandang dan hal yang ditekankan tiap sumber",
+            "Jumlah halaman tiap sumber",
+            "Warna sampul sumber",
+            "Nama penerbit sumber"
+          ],
+          "jawab": "Sudut pandang dan hal yang ditekankan tiap sumber",
+          "rubrik": "Siswa mampu membandingkan dua sumber tentang {M}."
+        },
+        {
+          "stem": "Perhatikan kronologi peristiwa berikut terkait {M}. Pola yang tampak dari kronologi tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan peristiwa yang mengarah pada suatu perubahan",
+            "Urutan yang tidak memiliki pola",
+            "Peristiwa yang terjadi pada waktu yang sama",
+            "Pola yang hanya muncul jika tahun diacak"
+          ],
+          "jawab": "Kecenderungan peristiwa yang mengarah pada suatu perubahan",
+          "rubrik": "Siswa dapat menemukan pola dalam kronologi {M}."
+        },
+        {
+          "stem": "Dalam pembahasan {M}, terdapat pernyataan yang berupa fakta dan yang berupa tafsir. Pernyataan yang termasuk fakta adalah ...",
+          "opsi": [
+            "Pernyataan yang dapat dibuktikan dengan sumber sezaman",
+            "Pernyataan yang berisi pendapat penulis",
+            "Pernyataan yang bersifat ramalan",
+            "Pernyataan yang memakai kata seharusnya"
+          ],
+          "jawab": "Pernyataan yang dapat dibuktikan dengan sumber sezaman",
+          "rubrik": "Siswa dapat membedakan fakta dan tafsir pada {M}."
+        },
+        {
+          "stem": "Perhatikan peta atau garis waktu berikut yang berkaitan dengan {M}. Informasi utama yang dapat dibaca dari peta atau garis waktu itu adalah ...",
+          "opsi": [
+            "Sebaran atau urutan peristiwa yang sesuai dengan gambarnya",
+            "Informasi yang tidak ada kaitannya dengan gambar",
+            "Data yang tidak dapat dibaca",
+            "Keterangan yang terlepas dari konteks waktu"
+          ],
+          "jawab": "Sebaran atau urutan peristiwa yang sesuai dengan gambarnya",
+          "rubrik": "Siswa dapat membaca peta atau garis waktu pada {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Sebuah kebijakan atau keputusan dibuat pada masa terjadinya {M}. Penilaian yang paling tepat terhadap kebijakan itu adalah ...",
+          "opsi": [
+            "Dinilai dari dampaknya yang dapat dilihat dari bukti sejarah",
+            "Dinilai dari banyaknya orang yang menyukainya kini",
+            "Dinilai dari nama pembuatnya saja",
+            "Dinilai tanpa melihat akibatnya"
+          ],
+          "jawab": "Dinilai dari dampaknya yang dapat dilihat dari bukti sejarah",
+          "rubrik": "Siswa mampu mengevaluasi kebijakan terkait {M} berdasarkan bukti."
+        },
+        {
+          "stem": "Dua tafsir berbeda diajukan untuk menjelaskan {M}. Tafsir manakah yang paling dapat dipertanggungjawabkan?",
+          "opsi": [
+            "Tafsir yang didukung sumber sejarah yang dapat diperiksa",
+            "Tafsir yang paling menarik untuk dibaca",
+            "Tafsir yang mengabaikan sumber",
+            "Tafsir yang didasarkan pada cerita tanpa bukti"
+          ],
+          "jawab": "Tafsir yang didukung sumber sejarah yang dapat diperiksa",
+          "rubrik": "Siswa dapat menilai tafsir sejarah pada {M}."
+        },
+        {
+          "stem": "Sebuah sumber tentang {M} perlu dinilai kredibilitasnya. Sumber yang paling layak dipakai adalah ...",
+          "opsi": [
+            "Sumber sezaman yang asli dan dapat diverifikasi",
+            "Sumber yang banyak dibagikan di media sosial",
+            "Sumber tanpa penulis dan tahun",
+            "Sumber yang berisi pendapat pribadi semata"
+          ],
+          "jawab": "Sumber sezaman yang asli dan dapat diverifikasi",
+          "rubrik": "Siswa mampu menilai kredibilitas sumber pada {M}."
+        },
+        {
+          "stem": "Nilai atau pelajaran dari {M} dapat dipakai untuk masa kini. Cara paling tepat menarik pelajaran itu adalah ...",
+          "opsi": [
+            "Menghubungkan pelajaran dengan situasi kini tanpa melupakan konteks lampaunya",
+            "Menuturkan peristiwa tanpa menghubungkan maknanya",
+            "Menghafal tahun tanpa memahami maknanya",
+            "Mengabaikan konteks zaman peristiwanya"
+          ],
+          "jawab": "Menghubungkan pelajaran dengan situasi kini tanpa melupakan konteks lampaunya",
+          "rubrik": "Siswa mampu mengevaluasi makna {M} bagi masa kini."
+        },
+        {
+          "stem": "Dua penulisan kembali tentang {M} disajikan. Penulisan yang paling layak dipakai dalam laporan sejarah adalah ...",
+          "opsi": [
+            "Penulisan yang runtut, memakai sumber, dan jelas maknanya",
+            "Penulisan yang mencampur fakta dan khayalan",
+            "Penulisan tanpa urutan waktu",
+            "Penulisan yang mengarang sumber"
+          ],
+          "jawab": "Penulisan yang runtut, memakai sumber, dan jelas maknanya",
+          "rubrik": "Siswa dapat menilai kualitas penulisan sejarah pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Susunlah sebuah garis waktu sederhana tentang {M}. Tuliskan peristiwa penting dalam urutan yang tepat.",
+          "opsi": null,
+          "jawab": "Garis waktu dengan urutan dan keterangan peristiwa yang tepat",
+          "rubrik": "Siswa mampu menyusun garis waktu peristiwa {M}."
+        },
+        {
+          "stem": "Buatlah sebuah ringkasan naratif tentang {M} yang memuat sebab, rangkaian peristiwa, dan akibatnya.",
+          "opsi": null,
+          "jawab": "Ringkasan yang memuat sebab, rangkaian peristiwa, dan akibat",
+          "rubrik": "Siswa mampu menulis narasi sejarah tentang {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah pameran mini atau poster tentang {M} untuk teman sekelas. Jelaskan isi dan tata letaknya.",
+          "opsi": null,
+          "jawab": "Rancangan pameran atau poster yang memuat informasi {M} secara rapi",
+          "rubrik": "Siswa mampu merancang karya penyajian sejarah tentang {M}."
+        },
+        {
+          "stem": "Tulislah sebuah refleksi tentang pelajaran yang dapat diambil dari {M} dan cara menerapkannya di sekolah.",
+          "opsi": null,
+          "jawab": "Refleksi yang menghubungkan {M} dengan sikap atau tindakan kini",
+          "rubrik": "Siswa mampu menulis refleksi makna {M} bagi masa kini."
+        },
+        {
+          "stem": "Susunlah beberapa pertanyaan wawancara untuk menggali cerita tentang {M} dari orang tua atau tokoh setempat.",
+          "opsi": null,
+          "jawab": "Pertanyaan wawancara yang fokus dan menggali informasi relevan",
+          "rubrik": "Siswa mampu menyusun daftar pertanyaan wawancara tentang {M}."
+        }
+      ]
+    },
+
+    "Sosiologi": {
+      "C4": [
+        {
+          "stem": "Perhatikan gejala sosial berikut yang berkaitan dengan {M}. Hubungan sebab akibat yang tampak pada gejala itu adalah ...",
+          "opsi": [
+            "Perubahan di satu bagian masyarakat memengaruhi bagian lain",
+            "Tiap gejala muncul tanpa saling memengaruhi",
+            "Gejala hanya berurutan tanpa kaitan",
+            "Gejala tidak dapat dijelaskan penyebabnya"
+          ],
+          "jawab": "Perubahan di satu bagian masyarakat memengaruhi bagian lain",
+          "rubrik": "Siswa mampu menganalisis hubungan sebab akibat pada {M}."
+        },
+        {
+          "stem": "Dua kelompok masyarakat menghadapi {M} dengan cara berbeda. Perbedaan pokok kedua cara itu terletak pada ...",
+          "opsi": [
+            "Nilai dan kebiasaan yang berlaku di masing-masing kelompok",
+            "Jumlah anggota kelompok",
+            "Nama kelompok",
+            "Letak geografis semata"
+          ],
+          "jawab": "Nilai dan kebiasaan yang berlaku di masing-masing kelompok",
+          "rubrik": "Siswa mampu membandingkan cara masyarakat menghadapi {M}."
+        },
+        {
+          "stem": "Perhatikan data atau grafik sosial berikut terkait {M}. Pola yang tampak dari data tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan yang berhubungan dengan kondisi sosial tertentu",
+            "Data yang tidak membentuk pola",
+            "Nilai yang selalu sama",
+            "Pola yang hanya muncul jika data diacak"
+          ],
+          "jawab": "Kecenderungan yang berhubungan dengan kondisi sosial tertentu",
+          "rubrik": "Siswa dapat membaca pola data sosial pada {M}."
+        },
+        {
+          "stem": "Dalam pembahasan {M}, muncul gejala sosial yang berulang. Ciri gejala sosial yang dapat ditelaah secara ilmiah adalah ...",
+          "opsi": [
+            "Gejala yang teramati dan memiliki pola yang dapat dijelaskan",
+            "Gejala yang hanya dirasakan satu orang",
+            "Gejala yang tidak dapat diamati",
+            "Gejala yang tidak memiliki pola"
+          ],
+          "jawab": "Gejala yang teramati dan memiliki pola yang dapat dijelaskan",
+          "rubrik": "Siswa mampu mengenali gejala sosial yang dapat ditelaah pada {M}."
+        },
+        {
+          "stem": "Perhatikan bagan struktur sosial berikut yang berkaitan dengan {M}. Hubungan antar bagian pada bagan itu adalah ...",
+          "opsi": [
+            "Keterkaitan antar kelompok berdasarkan peran dan kedudukannya",
+            "Gambar yang tidak memiliki makna",
+            "Hiasan tanpa keterangan",
+            "Bagian yang saling lepas tanpa hubungan"
+          ],
+          "jawab": "Keterkaitan antar kelompok berdasarkan peran dan kedudukannya",
+          "rubrik": "Siswa dapat menganalisis bagan struktur sosial pada {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Sebuah kebijakan sosial berkaitan dengan {M} diusulkan. Pertimbangan yang paling relevan untuk menerimanya adalah ...",
+          "opsi": [
+            "Dampak sosial yang dapat diamati dan dijelaskan",
+            "Banyaknya orang yang setuju tanpa alasan",
+            "Perasaan pribadi terhadap pengusul",
+            "Lamanya waktu pembahasan"
+          ],
+          "jawab": "Dampak sosial yang dapat diamati dan dijelaskan",
+          "rubrik": "Siswa mampu mengevaluasi kebijakan sosial terkait {M}."
+        },
+        {
+          "stem": "Dua cara menyelesaikan masalah sosial pada {M} diajukan. Cara manakah yang lebih tepat?",
+          "opsi": [
+            "Cara yang menyasar akar masalah dan dapat dijalankan bersama",
+            "Cara yang hanya menunda masalah",
+            "Cara yang menguntungkan satu pihak saja",
+            "Cara yang tidak mungkin dilaksanakan"
+          ],
+          "jawab": "Cara yang menyasar akar masalah dan dapat dijalankan bersama",
+          "rubrik": "Siswa dapat menilai cara penyelesaian masalah pada {M}."
+        },
+        {
+          "stem": "Sebuah perubahan sosial terjadi berkaitan dengan {M}. Penilaian yang paling tepat terhadap perubahan itu adalah ...",
+          "opsi": [
+            "Dinilai dari dampaknya bagi berbagai kelompok masyarakat",
+            "Dinilai dari banyaknya orang yang membicarakannya",
+            "Dinilai dari tokoh yang mendukungnya",
+            "Dinilai tanpa memperhatikan dampaknya"
+          ],
+          "jawab": "Dinilai dari dampaknya bagi berbagai kelompok masyarakat",
+          "rubrik": "Siswa mampu mengevaluasi perubahan sosial pada {M}."
+        },
+        {
+          "stem": "Sebuah berita tentang {M} beredar tanpa sumber yang jelas. Cara paling tepat menanggapi berita itu adalah ...",
+          "opsi": [
+            "Memeriksa sumber dan datanya sebelum mempercayai",
+            "Langsung menyebarkan kepada yang lain",
+            "Mempercayainya karena banyak yang membagikan",
+            "Mengabaikan pemeriksaan fakta"
+          ],
+          "jawab": "Memeriksa sumber dan datanya sebelum mempercayai",
+          "rubrik": "Siswa mampu menilai informasi sosial pada {M}."
+        },
+        {
+          "stem": "Dua tafsir diajukan untuk menjelaskan gejala sosial pada {M}. Tafsir yang paling dapat dipertanggungjawabkan adalah ...",
+          "opsi": [
+            "Tafsir yang didukung data dan teori sosial yang sesuai",
+            "Tafsir yang paling populer",
+            "Tafsir tanpa data pendukung",
+            "Tafsir yang mengandalkan prasangka"
+          ],
+          "jawab": "Tafsir yang didukung data dan teori sosial yang sesuai",
+          "rubrik": "Siswa dapat menilai tafsir gejala sosial pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah kegiatan sosial sederhana di sekolah yang berkaitan dengan {M}. Tuliskan tujuan dan langkahnya.",
+          "opsi": null,
+          "jawab": "Rancangan kegiatan dengan tujuan dan langkah yang jelas",
+          "rubrik": "Siswa mampu merancang kegiatan sosial terkait {M}."
+        },
+        {
+          "stem": "Susunlah daftar pertanyaan wawancara untuk menggali gejala sosial berkaitan dengan {M} di lingkungan sekitar.",
+          "opsi": null,
+          "jawab": "Pertanyaan wawancara yang fokus dan relevan",
+          "rubrik": "Siswa mampu menyusun pertanyaan wawancara tentang {M}."
+        },
+        {
+          "stem": "Buatlah sebuah poster atau kampanye singkat tentang {M}. Jelaskan pesan utama dan cara menyampaikannya.",
+          "opsi": null,
+          "jawab": "Poster atau kampanye dengan pesan utama yang jelas",
+          "rubrik": "Siswa mampu membuat kampanye sosial bertema {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah aksi nyata untuk mengatasi masalah sosial sederhana yang berkaitan dengan {M} di kelas.",
+          "opsi": null,
+          "jawab": "Aksi nyata yang masuk akal dan dapat dijalankan",
+          "rubrik": "Siswa mampu merancang aksi nyata terkait {M}."
+        },
+        {
+          "stem": "Susunlah sebuah laporan singkat hasil pengamatan gejala sosial tentang {M}, mulai dari latar belakang hingga simpulan.",
+          "opsi": null,
+          "jawab": "Laporan pengamatan yang runtut dari latar hingga simpulan",
+          "rubrik": "Siswa mampu menyusun laporan pengamatan sosial tentang {M}."
+        }
+      ]
+    },
+
+    "Ekonomi": {
+      "C4": [
+        {
+          "stem": "Perhatikan peristiwa ekonomi berikut yang berkaitan dengan {M}. Hubungan sebab akibat antar variabelnya adalah ...",
+          "opsi": [
+            "Perubahan satu faktor memengaruhi faktor ekonomi lainnya",
+            "Tiap faktor berubah tanpa saling memengaruhi",
+            "Faktor hanya berurutan tanpa kaitan",
+            "Faktor tidak dapat dijelaskan penyebabnya"
+          ],
+          "jawab": "Perubahan satu faktor memengaruhi faktor ekonomi lainnya",
+          "rubrik": "Siswa mampu menganalisis hubungan variabel ekonomi pada {M}."
+        },
+        {
+          "stem": "Dua pelaku ekonomi menghadapi {M} dengan cara berbeda. Perbedaan pokok kedua cara itu terletak pada ...",
+          "opsi": [
+            "Tujuan dan sumber daya yang dimiliki tiap pelaku",
+            "Jumlah pegawai tiap pelaku",
+            "Nama usaha tiap pelaku",
+            "Warna logo tiap pelaku"
+          ],
+          "jawab": "Tujuan dan sumber daya yang dimiliki tiap pelaku",
+          "rubrik": "Siswa mampu membandingkan cara pelaku ekonomi menghadapi {M}."
+        },
+        {
+          "stem": "Perhatikan data atau tabel ekonomi berikut terkait {M}. Pola yang tampak dari data tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan yang berhubungan dengan faktor ekonomi tertentu",
+            "Data yang tidak membentuk pola",
+            "Nilai yang selalu sama",
+            "Pola yang hanya muncul jika data diacak"
+          ],
+          "jawab": "Kecenderungan yang berhubungan dengan faktor ekonomi tertentu",
+          "rubrik": "Siswa dapat membaca pola data ekonomi pada {M}."
+        },
+        {
+          "stem": "Dalam pembahasan {M}, muncul pernyataan ekonomi yang tampak sama tetapi berbeda makna. Perbedaan pokoknya adalah ...",
+          "opsi": [
+            "Perbedaan antara pernyataan positif dan pernyataan normatif",
+            "Perbedaan panjang kalimat",
+            "Perbedaan jumlah angka",
+            "Perbedaan nama penulis"
+          ],
+          "jawab": "Perbedaan antara pernyataan positif dan pernyataan normatif",
+          "rubrik": "Siswa mampu membedakan pernyataan positif dan normatif pada {M}."
+        },
+        {
+          "stem": "Perhatikan grafik permintaan atau penawaran berikut terkait {M}. Kesimpulan yang tepat dari grafik itu adalah ...",
+          "opsi": [
+            "Perubahan yang sesuai dengan arah dan pergeseran kurvanya",
+            "Perubahan yang mengabaikan sumbu dan satuan",
+            "Kesimpulan yang bertentangan dengan grafik",
+            "Kesimpulan yang tidak memakai data"
+          ],
+          "jawab": "Perubahan yang sesuai dengan arah dan pergeseran kurvanya",
+          "rubrik": "Siswa dapat membaca grafik ekonomi pada {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Sebuah kebijakan ekonomi berkaitan dengan {M} diusulkan. Pertimbangan yang paling relevan untuk menilainya adalah ...",
+          "opsi": [
+            "Dampaknya terhadap perekonomian yang dapat diukur",
+            "Banyaknya orang yang menyukainya",
+            "Nama pejabat yang mengusulkan",
+            "Lamanya waktu pembahasan"
+          ],
+          "jawab": "Dampaknya terhadap perekonomian yang dapat diukur",
+          "rubrik": "Siswa mampu mengevaluasi kebijakan ekonomi terkait {M}."
+        },
+        {
+          "stem": "Dua cara dipakai untuk mengatasi masalah ekonomi pada {M}. Cara manakah yang lebih tepat?",
+          "opsi": [
+            "Cara yang menyasar akar masalah dan dapat dijalankan",
+            "Cara yang hanya menunda masalah",
+            "Cara yang menguntungkan satu pihak saja",
+            "Cara yang tidak mungkin dilaksanakan"
+          ],
+          "jawab": "Cara yang menyasar akar masalah dan dapat dijalankan",
+          "rubrik": "Siswa dapat menilai cara penyelesaian masalah {M}."
+        },
+        {
+          "stem": "Seorang pelaku usaha menghadapi pilihan terkait {M}. Keputusan yang paling bijaksana adalah ...",
+          "opsi": [
+            "Keputusan yang menimbang manfaat dan risiko jangka panjang",
+            "Keputusan yang diambil cepat tanpa pertimbangan",
+            "Keputusan yang hanya menguntungkan sesaat",
+            "Keputusan yang mengabaikan aturan yang berlaku"
+          ],
+          "jawab": "Keputusan yang menimbang manfaat dan risiko jangka panjang",
+          "rubrik": "Siswa mampu mengevaluasi keputusan ekonomi pada {M}."
+        },
+        {
+          "stem": "Sebuah informasi ekonomi tentang {M} beredar tanpa sumber yang jelas. Cara paling tepat menanggapinya adalah ...",
+          "opsi": [
+            "Memeriksa sumber resmi dan datanya sebelum mempercayai",
+            "Langsung meneruskannya kepada yang lain",
+            "Mempercayainya karena banyak yang membagikan",
+            "Mengabaikannya tanpa diuji"
+          ],
+          "jawab": "Memeriksa sumber resmi dan datanya sebelum mempercayai",
+          "rubrik": "Siswa mampu menilai informasi ekonomi pada {M}."
+        },
+        {
+          "stem": "Sebuah laporan keuangan atau data ekonomi terkait {M} terlihat tidak wajar. Penilaian yang paling tepat adalah ...",
+          "opsi": [
+            "Data perlu diperiksa ulang karena mungkin ada kekeliruan",
+            "Data langsung dipakai tanpa diperiksa",
+            "Data dibuang tanpa ditelusuri",
+            "Data diganti dengan taksiran"
+          ],
+          "jawab": "Data perlu diperiksa ulang karena mungkin ada kekeliruan",
+          "rubrik": "Siswa dapat mengevaluasi kewajaran data ekonomi pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah rencana usaha sederhana yang memanfaatkan pemahaman tentang {M}. Tuliskan tujuan dan langkahnya.",
+          "opsi": null,
+          "jawab": "Rencana usaha dengan tujuan dan langkah yang masuk akal",
+          "rubrik": "Siswa mampu merancang rencana usaha berbasis {M}."
+        },
+        {
+          "stem": "Susunlah sebuah anggaran sederhana untuk kegiatan yang berkaitan dengan {M}. Tuliskan pemasukan dan pengeluarannya.",
+          "opsi": null,
+          "jawab": "Anggaran dengan pemasukan dan pengeluaran yang seimbang dan jelas",
+          "rubrik": "Siswa mampu menyusun anggaran terkait {M}."
+        },
+        {
+          "stem": "Buatlah sebuah poster atau iklan singkat untuk memperkenalkan produk atau gagasan berkaitan dengan {M}.",
+          "opsi": null,
+          "jawab": "Poster atau iklan dengan pesan yang menarik dan jelas",
+          "rubrik": "Siswa mampu membuat media promosi bertema {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah kegiatan di sekolah yang memakai konsep {M}, seperti koperasi atau bazar kelas.",
+          "opsi": null,
+          "jawab": "Rancangan kegiatan yang menerapkan konsep {M} dengan langkah jelas",
+          "rubrik": "Siswa mampu merancang kegiatan ekonomi berbasis {M}."
+        },
+        {
+          "stem": "Susunlah sebuah laporan singkat hasil pengamatan tentang kegiatan ekonomi berkaitan dengan {M} di lingkungan sekitar.",
+          "opsi": null,
+          "jawab": "Laporan pengamatan yang runtut dari latar hingga simpulan",
+          "rubrik": "Siswa mampu menyusun laporan pengamatan ekonomi tentang {M}."
+        }
+      ]
+    },
+
+    "Geografi": {
+      "C4": [
+        {
+          "stem": "Perhatikan gejala alam berikut yang berkaitan dengan {M}. Hubungan sebab akibat antar gejalanya adalah ...",
+          "opsi": [
+            "Perubahan satu gejala alam memengaruhi gejala lain di wilayah tersebut",
+            "Tiap gejala muncul tanpa saling memengaruhi",
+            "Gejala hanya berurutan tanpa kaitan",
+            "Gejala tidak dapat dijelaskan penyebabnya"
+          ],
+          "jawab": "Perubahan satu gejala alam memengaruhi gejala lain di wilayah tersebut",
+          "rubrik": "Siswa mampu menganalisis hubungan antar gejala pada {M}."
+        },
+        {
+          "stem": "Dua wilayah berbeda menghadapi {M} dengan kondisi berbeda. Perbedaan pokok kedua wilayah itu terletak pada ...",
+          "opsi": [
+            "Kondisi fisik dan keadaan penduduknya",
+            "Jumlah kata pada peta",
+            "Warna peta tiap wilayah",
+            "Nama wilayah semata"
+          ],
+          "jawab": "Kondisi fisik dan keadaan penduduknya",
+          "rubrik": "Siswa mampu membandingkan dua wilayah terkait {M}."
+        },
+        {
+          "stem": "Perhatikan data atau grafik berikut tentang {M}. Pola yang tampak dari data tersebut adalah ...",
+          "opsi": [
+            "Kecenderungan yang berhubungan dengan kondisi wilayah tertentu",
+            "Data yang tidak membentuk pola",
+            "Nilai yang selalu sama",
+            "Pola yang hanya muncul jika data diacak"
+          ],
+          "jawab": "Kecenderungan yang berhubungan dengan kondisi wilayah tertentu",
+          "rubrik": "Siswa dapat membaca pola data pada {M}."
+        },
+        {
+          "stem": "Dalam pembahasan {M}, muncul pernyataan yang perlu diuji dengan data wilayah. Ciri pernyataan yang layak diuji adalah ...",
+          "opsi": [
+            "Pernyataan yang dapat dicocokkan dengan data atau peta",
+            "Pernyataan yang hanya berupa perasaan",
+            "Pernyataan yang tidak dapat diukur",
+            "Pernyataan yang mengabaikan lokasi"
+          ],
+          "jawab": "Pernyataan yang dapat dicocokkan dengan data atau peta",
+          "rubrik": "Siswa mampu menilai pernyataan geografis pada {M}."
+        },
+        {
+          "stem": "Perhatikan peta berikut yang berkaitan dengan {M}. Informasi utama yang dapat dibaca dari peta itu adalah ...",
+          "opsi": [
+            "Sebaran atau keterkaitan unsur geografis sesuai legenda peta",
+            "Informasi yang tidak ada pada legenda",
+            "Data yang tidak dapat dibaca",
+            "Keterangan yang terlepas dari lokasi"
+          ],
+          "jawab": "Sebaran atau keterkaitan unsur geografis sesuai legenda peta",
+          "rubrik": "Siswa dapat membaca peta pada materi {M}."
+        }
+      ],
+      "C5": [
+        {
+          "stem": "Sebuah kebijakan tata ruang atau lingkungan berkaitan dengan {M} diusulkan. Pertimbangan yang paling relevan untuk menilainya adalah ...",
+          "opsi": [
+            "Dampaknya bagi lingkungan dan penduduk yang dapat diamati",
+            "Banyaknya orang yang menyetujui",
+            "Nama pengusul kebijakan",
+            "Lamanya waktu pembahasan"
+          ],
+          "jawab": "Dampaknya bagi lingkungan dan penduduk yang dapat diamati",
+          "rubrik": "Siswa mampu mengevaluasi kebijakan terkait {M}."
+        },
+        {
+          "stem": "Dua cara dipakai untuk mengatasi masalah lingkungan pada {M}. Cara manakah yang lebih tepat?",
+          "opsi": [
+            "Cara yang menyasar penyebab dan dapat dijalankan berkelanjutan",
+            "Cara yang hanya menunda masalah",
+            "Cara yang merusak lingkungan lain",
+            "Cara yang tidak mungkin dilaksanakan"
+          ],
+          "jawab": "Cara yang menyasar penyebab dan dapat dijalankan berkelanjutan",
+          "rubrik": "Siswa dapat menilai cara penyelesaian masalah {M}."
+        },
+        {
+          "stem": "Sebuah perubahan kondisi lingkungan terjadi berkaitan dengan {M}. Penilaian yang paling tepat terhadap perubahan itu adalah ...",
+          "opsi": [
+            "Dinilai dari dampaknya bagi lingkungan dan kehidupan penduduk",
+            "Dinilai dari banyaknya orang yang membicarakannya",
+            "Dinilai dari berita di media sosial",
+            "Dinilai tanpa memperhatikan dampaknya"
+          ],
+          "jawab": "Dinilai dari dampaknya bagi lingkungan dan kehidupan penduduk",
+          "rubrik": "Siswa mampu mengevaluasi perubahan lingkungan pada {M}."
+        },
+        {
+          "stem": "Sebuah informasi tentang {M} beredar tanpa sumber yang jelas. Cara paling tepat menanggapinya adalah ...",
+          "opsi": [
+            "Memeriksa sumber resmi dan datanya sebelum mempercayai",
+            "Langsung menyebarkannya kepada yang lain",
+            "Mempercayainya karena banyak yang membagikan",
+            "Mengabaikan pemeriksaan data"
+          ],
+          "jawab": "Memeriksa sumber resmi dan datanya sebelum mempercayai",
+          "rubrik": "Siswa mampu menilai informasi geografis pada {M}."
+        },
+        {
+          "stem": "Dua tafsir diajukan untuk menjelaskan gejala pada {M}. Tafsir yang paling dapat dipertanggungjawabkan adalah ...",
+          "opsi": [
+            "Tafsir yang didukung data dan fakta wilayah yang dapat diperiksa",
+            "Tafsir yang paling populer",
+            "Tafsir tanpa data pendukung",
+            "Tafsir yang mengandalkan dugaan semata"
+          ],
+          "jawab": "Tafsir yang didukung data dan fakta wilayah yang dapat diperiksa",
+          "rubrik": "Siswa dapat menilai tafsir gejala geografis pada {M}."
+        }
+      ],
+      "C6": [
+        {
+          "stem": "Rancanglah sebuah peta sederhana atau sketsa wilayah yang menggambarkan {M}. Jelaskan keterangannya.",
+          "opsi": null,
+          "jawab": "Peta atau sketsa dengan keterangan yang sesuai topik",
+          "rubrik": "Siswa mampu membuat peta atau sketsa terkait {M}."
+        },
+        {
+          "stem": "Susunlah sebuah rencana aksi lingkungan sederhana di sekolah yang berkaitan dengan {M}. Tuliskan tujuan dan langkahnya.",
+          "opsi": null,
+          "jawab": "Rencana aksi lingkungan dengan tujuan dan langkah yang jelas",
+          "rubrik": "Siswa mampu merancang aksi lingkungan terkait {M}."
+        },
+        {
+          "stem": "Buatlah sebuah poster edukasi tentang {M} untuk warga sekolah. Jelaskan pesan utamanya.",
+          "opsi": null,
+          "jawab": "Poster edukasi dengan pesan utama yang jelas",
+          "rubrik": "Siswa mampu membuat poster edukasi bertema {M}."
+        },
+        {
+          "stem": "Rancanglah sebuah pengamatan sederhana tentang kondisi lingkungan yang berkaitan dengan {M} di sekitar tempat tinggal.",
+          "opsi": null,
+          "jawab": "Rancangan pengamatan dengan objek dan langkah yang jelas",
+          "rubrik": "Siswa mampu merancang pengamatan lingkungan terkait {M}."
+        },
+        {
+          "stem": "Susunlah sebuah laporan singkat hasil pengamatan tentang {M}, mulai dari latar belakang hingga simpulan.",
+          "opsi": null,
+          "jawab": "Laporan pengamatan yang runtut dari latar hingga simpulan",
+          "rubrik": "Siswa mampu menyusun laporan pengamatan geografi tentang {M}."
+        }
+      ]
+    }
+  }
+}
