@@ -92,7 +92,6 @@ Aplikasi_Prototipe/
 │   └── logo.svg      # Logo aplikasi
 ├── wireframe.html    # Rancangan antarmuka awal
 ├── README.md         # Berkas ini
-├── CARA_PUSH_GITHUB.txt  # Panduan mengunggah proyek ke GitHub
 ├── LICENSE           # Lisensi MIT
 └── .gitignore        # Berkas yang diabaikan Git
 ```
